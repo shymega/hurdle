@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "bin/client",
+    "bin/controllers/cli",
+    "bin/controllers/qt",
+    "bin/server",
+    "lib/common/display/macos",
+    "lib/common/display/wayland",
+    "lib/common/display/windows",
+    "lib/common/display/x11",
+    "lib/common/protocol",
+    "lib/platforms/freebsd",
+    "lib/platforms/macos",
+    "lib/platforms/openbsd",
+    "lib/platforms/windows",
+    "lib/server/rpc"
+]

@@ -1,0 +1,15 @@
+[package]
+name = "hurdle-display-macos"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+# need to find a way to interface with macOS GUIs
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

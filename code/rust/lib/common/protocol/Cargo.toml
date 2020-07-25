@@ -1,0 +1,15 @@
+[package]
+name = "hurdle-common-protocol"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+jsonrpc = "0.11.0"
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

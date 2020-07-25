@@ -1,0 +1,15 @@
+[package]
+name = "hurdle-client"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

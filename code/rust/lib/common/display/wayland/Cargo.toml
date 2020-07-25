@@ -1,0 +1,16 @@
+[package]
+name = "hurdle-display-wayland"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+clipboard_wayland = "0.1.0"
+wayland-server = "0.25.0"
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

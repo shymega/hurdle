@@ -1,0 +1,14 @@
+[package]
+name = "hurdle-platform-openbsd"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

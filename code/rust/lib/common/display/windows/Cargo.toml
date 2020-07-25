@@ -1,0 +1,15 @@
+[package]
+name = "hurdle-display-windows"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+edition = "2018"
+
+[dependencies]
+native-windows-gui = "0.2.1"
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[features]
+default = []

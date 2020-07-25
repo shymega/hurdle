@@ -1,0 +1,35 @@
+digraph coresubsys {
+    node[shape=box, style=rounded];
+
+    keyboard [label="Keyboard"];
+    mouse [label="Mouse"];
+
+    client [label="Hurdle Client (Screen)"];
+    server [label="Hurdle Server"];
+
+    contr_cli_srv [label="CLI Controller to server daemon", dir=both];
+    contr_qt5_srv [label="Qt 5 Controller to server daemon", dir=both];
+
+    contr_cli_client [label="CLI Controller to client daemon", dir=both];
+    contr_qt5_client [label="Qt 5 Controller to client daemon", dir=both];
+
+    wayland [label="Wayland display backend"];
+    macos [label="macOS display (Quartz) backend"];
+    x11 [label="X11 display backend"];
+    windows [label="Windows display backend"];
+
+    contr_qt5_client->client [label="JSON-RPC (OS IPC)", dir=both];
+    contr_cli_client->client [label="JSON-RPC (OS IPC)", dir=both];
+
+    contr_cli_srv->server [label="JSON-RPC (OS IPC)", dir=both];
+    contr_qt5_srv->server [label="JSON-RPC (OS IPC)", dir=both];
+
+    client->{wayland,x11,macos,windows} [dir=both];
+    server->{wayland,x11,macos,windows} [dir=both];
+
+    client->server [label="JSON-RPC (TCP/IP)", dir=both];
+    server->client [label="JSON-RPC (TCP/IP)", dir=both];
+
+    server->keyboard [dir=both];
+    server->mouse [dir=both];
+}

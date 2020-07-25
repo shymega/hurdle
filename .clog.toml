@@ -1,0 +1,7 @@
+[clog]
+repository = "https://github.com/xt-editor/xt-core"
+subtitle = "Hurdle: A Rust software KVM."
+link-style = "github"
+changelog = "CHANGELOG.md"
+output-format = "markdown"
+from-latest-tag = true
