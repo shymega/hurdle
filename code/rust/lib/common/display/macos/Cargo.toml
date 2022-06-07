@@ -6,10 +6,10 @@ edition = "2018"
 
 [dependencies]
 # need to find a way to interface with macOS GUIs
-cocoa = "0.23.0"
+cocoa = "0.24.0"
 
 [dependencies.clippy]
-version = "*"
+version = "0.0.302"
 optional = true
 
 [features]

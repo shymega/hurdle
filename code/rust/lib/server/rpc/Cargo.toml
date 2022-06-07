@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 
 [dependencies.clippy]
-version = "*"
+version = "0.0.302"
 optional = true
 
 [features]

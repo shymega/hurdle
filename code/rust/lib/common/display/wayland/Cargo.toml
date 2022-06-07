@@ -5,11 +5,11 @@ authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 edition = "2018"
 
 [dependencies]
-clipboard_wayland = "0.1.0"
-wayland-server = "0.25.0"
+clipboard_wayland = "0.2.0"
+wayland-server = "0.29.4"
 
 [dependencies.clippy]
-version = "*"
+version = "0.0.302"
 optional = true
 
 [features]

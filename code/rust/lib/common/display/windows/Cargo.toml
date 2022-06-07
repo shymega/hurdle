@@ -5,10 +5,10 @@ authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 edition = "2018"
 
 [dependencies]
-native-windows-gui = "0.2.1"
+native-windows-gui = "1.0.12"
 
 [dependencies.clippy]
-version = "*"
+version = "0.0.302"
 optional = true
 
 [features]
