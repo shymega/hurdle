@@ -5,7 +5,7 @@ authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 edition = "2018"
 
 [dependencies]
-clap = "3.1.18"
+clap = "3.2.5"
 
 [dependencies.clippy]
 version = "0.0.302"
