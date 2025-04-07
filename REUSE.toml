@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2025 The Hurdle Developers
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+version = 1
+SPDX-PackageName = "Hurdle"
+SPDX-PackageSupplier = "The Hurdle Developers <>"
+SPDX-PackageDownloadLocation = "https://github.com/shymega/hurdle.git"
+annotations = []

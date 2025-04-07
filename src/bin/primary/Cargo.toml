@@ -1,11 +1,11 @@
-# SPDX-FileCopyrightText: 2023 The Input-Leap Developers
+# SPDX-FileCopyrightText: 2025 The Hurdle Developers
 #
 # SPDX-License-Identifier: GPL-2.0-only
 
 [package]
-name = "input-leap-rs-primary"
+name = "hurdle-primary"
 version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-input-leap-rs-core = { path = "../../lib/core/" }
+hurdle-core = { path = "../../lib/core/" }

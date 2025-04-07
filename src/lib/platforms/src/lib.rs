@@ -1,8 +1,8 @@
-// SPDX-FileCopyrightText: 2023 The Input-Leap Developers
+// SPDX-FileCopyrightText: 2025 The Hurdle Developers
 //
 // SPDX-License-Identifier: GPL-2.0-only
 
-//! Conditionally-compiled, all backends crate for `input-leap-rs`.
+//! Conditionally-compiled, all backends crate for `hurdle`.
 #![deny(
     warnings,
     missing_copy_implementations,

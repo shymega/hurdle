@@ -1,5 +1,4 @@
 {
-    "name": "VS Code DevContainer for Input-Leap-rs",
     "image": "mcr.microsoft.com/devcontainers/rust:bullseye",
     "customizations": {
         "vscode": {

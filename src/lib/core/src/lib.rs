@@ -1,8 +1,8 @@
-// SPDX-FileCopyrightText: 2023 The Input-Leap Developers
+// SPDX-FileCopyrightText: 2025 The Hurdle Developers
 //
 // SPDX-License-Identifier: GPL-2.0-only
 
-//! Core crate for `input-leap-rs`.
+//! Core crate for `hurdle`.
 #![deny(
     warnings,
     missing_copy_implementations,
@@ -21,8 +21,8 @@
 )]
 
 pub mod reexports {
-    //! Reexports of Input Leap-rs dependencies & componets.
-    pub use input_leap_rs_platforms as platforms;
+    //! Reexports of hurdle dependencies & componets.
+    pub use hurdle_platforms as platforms;
     pub use rmp;
     pub use rmp_serde;
 }

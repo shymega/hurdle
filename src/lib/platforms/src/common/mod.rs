@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2023 The Input-Leap Developers
+// SPDX-FileCopyrightText: 2025 The Hurdle Developers
 //
 // SPDX-License-Identifier: GPL-2.0-only
 
@@ -40,6 +40,9 @@ pub trait ScreenProvider {
 
 /// `PrimaryTrait` acts as a common specification of operations that can be executed on a
 /// `Primary` (TODO)..
-pub trait PrimaryScreenProvider : ScreenProvider {
-    fn get_screen_mapping(&self, screen_id: Uuid) -> Option<HashMap<String, String>>;
+pub trait PrimaryScreenProvider: ScreenProvider {
+    fn get_screen_mapping(
+        &self,
+        screen_id: Uuid,
+    ) -> Option<HashMap<String, String>>;
 }
